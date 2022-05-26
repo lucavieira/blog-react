@@ -6,6 +6,10 @@ const Header = styled.header`
 
     display: flex;
     justify-content: center;
+
+    margin-bottom: 60px;
+
+    color: #fff;
 `
 
 export default Header

@@ -6,6 +6,7 @@ const ContainerHeader = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 15px;
 `
 
 export default ContainerHeader
