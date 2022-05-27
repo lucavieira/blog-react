@@ -1,8 +1,8 @@
 import React from "react"
-import ContainerCard from "../styles/ContainerCard"
-import Date from "../styles/Date"
-import Title from "../styles/Title"
-import Content from "../styles/Content"
+import ContainerCard from "../assets/styles/ContainerCard"
+import Date from "../assets/styles/Date"
+import Title from "../assets/styles/Title"
+import Content from "../assets/styles/Content"
 
 const Card = ({date, title, content}) => {
     return (

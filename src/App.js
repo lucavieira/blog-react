@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "./components/Card";
-import Body from "./styles/Body"
-import ContainerHeader from "./styles/ContainerHeader";
-import Header from "./styles/Header";
+import SearchBar from "./components/SearchBar";
+import Body from "./assets/styles/Body"
+import ContainerHeader from "./assets/styles/ContainerHeader";
+import Header from "./assets/styles/Header";
 
 const App = () => {
   const date = `${new Date().getDate()}/${(new Date().getMonth()) + 1}/${new Date().getFullYear()}`
@@ -14,6 +15,7 @@ const App = () => {
           <h1>Lucas</h1>
           <h2>Blog</h2>
         </ContainerHeader>
+        <SearchBar></SearchBar>
       </Header>
       <Body>
         <Card 

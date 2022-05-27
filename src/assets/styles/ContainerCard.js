@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const ContainerCard = styled.div`
     max-width: 900px;
-    width: 100%;
+    width: 65%;
     background-color: #fff;
     padding: 20px;
     margin: 10px 0;

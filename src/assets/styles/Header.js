@@ -5,7 +5,9 @@ const Header = styled.header`
     background-image: linear-gradient(to right, #574AE8, #3EA1DB);
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
     margin-bottom: 60px;
 
