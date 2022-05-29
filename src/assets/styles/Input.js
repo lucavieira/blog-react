@@ -8,8 +8,6 @@ const Input = styled.input`
     border: none;
     border-radius: 5px;
 
-    padding-left: 60px;
-
     background-color: rgba(255, 255, 255, 0.2);
 
     &::placeholder {
@@ -19,6 +17,18 @@ const Input = styled.input`
 
     &:focus {
         outline: 0;
+    }
+
+    &.search {
+        padding-left: 60px;
+    }
+
+    &.login {
+        max-width: 350px;
+        width: 90%;
+        height: 8vh;
+
+        padding-left: 20px;
     }
 `
 

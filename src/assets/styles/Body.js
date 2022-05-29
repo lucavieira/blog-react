@@ -5,6 +5,10 @@ const Body = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &.bodyLogin {
+        justify-content: center;
+    }
 `
 
 export default Body

@@ -6,7 +6,7 @@ import SearchIcon from "../assets/styles/SearchIcon";
 const SearchBar = () => {
     return (
         <>
-            <Input type="text" placeholder="Search..."></Input>
+            <Input type="text" placeholder="Search..." className="search"></Input>
             <SearchIcon src={iconSearch} alt="Search icon" />
         </>
     );

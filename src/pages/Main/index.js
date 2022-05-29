@@ -1,5 +1,5 @@
 import React from "react";
-import ContainerHeader from "../../assets/styles/ContainerHeader";
+import Container from "../../assets/styles/Container";
 import Header from "../../assets/styles/Header";
 import Navbar from "../../components/Navbar";
 import SearchBar from "../../components/SearchBar";
@@ -11,10 +11,10 @@ const Main = () => {
     return (
         <>
             <Header>
-                <ContainerHeader>
+                <Container className="containerHeader">
                     <h1>Lucas Blog</h1>
                     <Navbar></Navbar>
-                </ContainerHeader>
+                </Container>
                 <SearchBar></SearchBar>
             </Header>
             <Body>
