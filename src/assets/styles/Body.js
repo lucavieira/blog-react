@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Body = styled.body`
+const Body = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
