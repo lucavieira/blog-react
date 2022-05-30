@@ -7,8 +7,8 @@ const Buttons = styled.button`
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
-    background-color: #05125865;
+    
+    background-image: linear-gradient(to right, #574AE8, #3EA1DB);
     color: #fff;
     
     a {

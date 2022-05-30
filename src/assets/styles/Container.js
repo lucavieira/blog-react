@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Container = styled.div`
     max-width: 900px;
 
-    &.containerLogin {
+    &.containerLogin, &.containerRegister {
         max-width: 450px;
         width: 80%;
         height: 65vh;
@@ -16,7 +16,11 @@ const Container = styled.div`
 
         color: #fff;
         box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.35);
-        background-image: linear-gradient(to right, #574AE8, #3EA1DB);
+        background-image: linear-gradient(to right, #051258, #172FB5);
+    }
+
+    &.containerRegister {
+        height: 75vh;
     }
 
     &.containerCard {
@@ -55,7 +59,7 @@ const Container = styled.div`
         align-items: center;
         gap: 5px;
         a {
-            color: #051258;
+            color: #fff;
         }
     }
 `
