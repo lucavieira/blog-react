@@ -14,6 +14,8 @@ const Container = styled.div`
         justify-content: center;
         gap: 20px;
 
+        border-radius: 5px;
+
         color: #fff;
         box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.35);
         background-image: linear-gradient(to right, #051258, #172FB5);

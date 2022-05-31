@@ -12,7 +12,7 @@ const Main = () => {
         <>
             <Header>
                 <Container className="containerHeader">
-                    <h1>Lucas Blog</h1>
+                    <h1>Blog</h1>
                     <Navbar></Navbar>
                 </Container>
                 <SearchBar></SearchBar>
